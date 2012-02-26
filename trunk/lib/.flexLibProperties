@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="com.thebitstream.flv.CodecFactory"/>
+    <classEntry path="com.thebitstream.flv.Transcoder"/>
+    <classEntry path="com.thebitstream.flv.codec.AAC"/>
+    <classEntry path="com.thebitstream.flv.codec.AACP"/>
+    <classEntry path="com.thebitstream.flv.codec.ASYN"/>
+    <classEntry path="com.thebitstream.flv.codec.AUXA"/>
+    <classEntry path="com.thebitstream.flv.codec.CodecBase"/>
+    <classEntry path="com.thebitstream.flv.codec.CodecEvent"/>
+    <classEntry path="com.thebitstream.flv.codec.H264"/>
+    <classEntry path="com.thebitstream.flv.codec.ICodec"/>
+    <classEntry path="com.thebitstream.flv.codec.MP3"/>
+    <classEntry path="com.thebitstream.flv.codec.MetaData"/>
+    <classEntry path="com.thebitstream.flv.codec.SUBT"/>
+    <classEntry path="com.thebitstream.flv.codec.StreamDataEvent"/>
+    <classEntry path="com.thebitstream.flv.codec.VP61"/>
+    <classEntry path="com.thebitstream.flv.codec.VP62"/>
+    <classEntry path="com.thebitstream.flv.codec.mpeg.AVC"/>
+    <classEntry path="com.thebitstream.flv.codec.mpeg.MP3Header"/>
+    <classEntry path="com.thebitstream.flv.codec.pack.AudioCodecs"/>
+    <classEntry path="com.thebitstream.flv.codec.pack.CodecPack"/>
+    <classEntry path="com.thebitstream.flv.codec.x264"/>
+    <classEntry path="com.thebitstream.flv.io.Tag"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
