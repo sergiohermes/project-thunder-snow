@@ -1,0 +1,51 @@
+<playlist>
+	<!--                      -->
+	<autoPlay>true</autoPlay>
+	<projector>
+		<!--  -->
+		<view>BaseAudio</view>
+		<uri>skins/BaseSkin.swf</uri>
+	</projector>
+	
+	<item><!--  requires socket policy server-->
+		<provider>IcecastSocket</provider>
+		<description>icecast over socket stream, supports aacp audio and x-flv</description>	
+		<view>BaseAudio</view>			
+		<host>glb-stream15.streaming.init7.net</host>
+		<port>80</port>
+		<uri>/1/rsc_de/aacp_64</uri>
+	</item>
+	
+	<item><!--  requires crossdomian file-->
+		<provider>Icecast</provider>
+		<description>Icecast over http stream</description>	
+		<view>BaseAudio</view>			
+		<!-- specify content, AACP or MP3 -->
+		<content>AACP</content>	
+		<host>http://glb-stream15.streaming.init7.net:80</host>
+		<uri>/1/rsc_de/aacp_64</uri>
+	</item>
+			
+
+	
+	
+	<item><!--  requires socket policy server-->
+		<provider>Shoutcast</provider>
+		<description>Shoutcast over socket stream</description>	
+		<view>BaseVideo</view>			
+		<connection>socket</connection>	
+		<host>99.198.118.250</host>
+		<port>8010</port>
+		<uri>/;stream.nsv</uri>
+	</item>		
+
+	<item><!--  requires crossdomian file-->
+		<provider>Shoutcast</provider>
+		<description>Shoutcast over tcp stream</description>	
+		<view>BaseVideo</view>			
+		<connection>tcp</connection>			
+		<host>http://99.198.118.250:8010/;stream.nsv</host>
+		<uri>http://99.198.118.250:8010/;stream.nsv</uri>
+	</item>
+				
+</playlist>
