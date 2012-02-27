@@ -8,4 +8,9 @@ Have a player in the wild? Let me know.
 
 ==Audio==
 
-http://peak3radio.com/
+http://peak3radio.com/ 
+
+=====Format and Features=====
+
+  * AACP Shoutcast radio with mp3 intro. 
+  * Titles from metadata are used to get factoids of the current playing band.
