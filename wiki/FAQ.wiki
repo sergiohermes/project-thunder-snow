@@ -10,7 +10,7 @@ A: Yes http://code.google.com/p/project-thunder-snow/downloads/detail?name=thund
 
 Q: "Will it work as is?"
 
-A: No, the radio stations in the playlist will not allow you website to access them this way. BUT, a flash developer CAN use the playlist as-is in the flash/flex IDE without restrictions, because we rock, and there is leeway in the IDE that you wont get in the wild.
+A: No, the radio stations in the playlist will not allow your website to access them this way. BUT, a flash developer CAN use the playlist as-is in the flash/flex IDE without restrictions, because we rock, and there is leeway in the IDE that you wont get in the wild.
 
 Q: "Will it work on my web site with my radio station?"
 
