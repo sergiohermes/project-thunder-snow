@@ -32,7 +32,7 @@ A:
 
 3) Because the parsers for the various sources mostly work, but any issue normally fixed with simple additional code line in the parser cannot be done.
 
-4) Because the technical aspect of choosing tcp or raw socket stream, the deployment issues as so where it is served from, and many other details require some knowledge.
+4) Because the technical aspect of choosing tcp or raw socket stream, the deployment issues as to where it is served from, and many other details require some knowledge.
 
 5) Because knowing the difference between a crossdomain file and a crossdomain policy file server will make or break your deployment.
 
