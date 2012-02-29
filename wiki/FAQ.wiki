@@ -1,4 +1,5 @@
 #summary Frequently asked questions.
+#labels Featured,Phase-Support,Phase-QA,Phase-Deploy,Phase-Implementation,Phase-Requirements,Phase-Design
 
 ==Questions==
 
@@ -52,5 +53,3 @@ A: Shoutcast server V2 will have a built in socket policy server to solve all pr
 Q: "Great, What about NOW!?!?"
 
 A: If you serve the player from an ice cast web directory, you know, enable the icecast server to provide a web-server, you can ommit the need to use crossdomain files where the parser uses a TCP stream. woohoo...
-
-
