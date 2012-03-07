@@ -1,0 +1,103 @@
+<playlist>
+	
+	
+	<item>
+		<provider>Shoutcast</provider>
+		<description>Shoutcast v1 over socket stream</description>	
+		<view>DemoSound</view>			
+		<connection>socket</connection>	
+		<!-- If not port 843. uri of policy file.
+		<policy>xmlsocket://foo.com:414</policy> 
+		-->			
+		<host>baldyradio.com</host>
+		<port>8000</port>
+		<uri>/</uri>
+	</item>
+		
+	<item>
+		<provider>Shoutcast</provider>
+		<description>Shoutcast v1 over http stream</description>	
+		<view>DemoSound</view>			
+		<connection>tcp</connection>	
+		<uri>http://baldyradio.com:8000/</uri>
+	</item>			
+
+	
+	<!--                      -->
+	<item>
+		<provider>ShoutcastFile</provider>
+		<description>NSV file over http progressive download</description>
+		<view>DemoView</view>				
+		<uri>http://thebitstream.com/snow.nsv</uri>
+	</item>	
+		
+		
+			
+	<item>
+		<provider>Icecast</provider>
+		<description>Icecast over http stream</description>	
+		<view>DemoSound</view>			
+		<!-- AACP or MP3 -->
+		<content>AACP</content>	
+		<host>http://glb-stream15.streaming.init7.net:80</host>
+		<uri>/1/rsc_de/aacp_64</uri>
+	</item>
+		
+	<item>
+		<provider>IcecastSocket</provider>
+		<description>Shoutcast v1 over socket stream</description>	
+		<view>DemoSound</view>			
+		<connection>socket</connection>	
+		<host>glb-stream15.streaming.init7.net</host>
+		<port>80</port>
+		<uri>/1/rsc_de/aacp_64</uri>
+		<content>AACP</content>
+	</item>
+	
+	<item>
+		<provider>IcecastFLV</provider>
+		<description>Icecast with k version flv stream</description>	
+		<view>DemoView</view>				
+		<host>http://bglive-a.bitgravity.com</host>
+		<uri>/twit/live/low</uri>
+	</item>	
+		
+	<item>
+		<provider>IcecastNSV</provider>
+		<description>Icecast nsv over http stream</description>	
+		<view>DemoView</view>				
+		<host>http://bonkers.com:8000</host>
+		<uri>/stream.nsv</uri>
+	</item>			
+
+	<item>
+		<provider>Shoutcast</provider>
+		<description>Shoutcast v1 over socket stream</description>	
+		<view>DemoView</view>			
+		<connection>socket</connection>	
+		<!-- If not port 843. uri of policy file.
+		<policy>xmlsocket://foo.com:414</policy> 
+		-->			
+		<host>99.198.118.250</host>
+		<port>8010</port>
+		<uri>/;stream.nsv</uri>
+	</item>	
+
+	
+	<item>
+		<provider>Shoutcast</provider>
+		<description>Shoutcast v1 over http stream</description>	
+		<view>DemoView</view>			
+		<connection>tcp</connection>	
+		<host>http://bogproghome.hopto.org:64846/;stream.nsv</host>
+		<uri>;stream.nsv</uri>
+	</item>
+		
+	<item>
+		<provider>ShoutcastFile</provider>
+		<description>NSV file over http progressive download</description>
+		<view>DemoView</view>				
+		<uri>http://thebitstream.com/snow.nsv</uri>
+	</item>	
+			
+</playlist>
